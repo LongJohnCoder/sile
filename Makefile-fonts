@@ -2,7 +2,7 @@
 .PRECIOUS: .fonts/% %.zip %.xz
 
 # List of font files we _actually need_
-TESTFONTFILES  = GentiumPlus-R.ttf GentiumPlus-I.ttf
+TESTFONTFILES  = GentiumPlus-R.ttf GentiumPlus-I.ttf GenBkBasR.ttf
 TESTFONTFILES += Amiri-Regular.ttf AmiriQuran.ttf
 TESTFONTFILES += Hack-Regular.ttf
 TESTFONTFILES += LateefGR-Regular.ttf
@@ -12,7 +12,7 @@ TESTFONTFILES += NotoSansCJK-Regular.ttc
 TESTFONTFILES += NotoSansKannada-Regular.ttf
 TESTFONTFILES += NotoSansEthiopic-Regular.ttf
 TESTFONTFILES += NotoSansMalayalam-Regular.ttf
-TESTFONTFILES += RobotoCondensed-Bold.ttf
+TESTFONTFILES += RobotoCondensed-Regular.ttf RobotoCondensed-Bold.ttf
 TESTFONTFILES += SBL_Hbrw.ttf
 TESTFONTFILES += Symbola_hint.ttf
 
